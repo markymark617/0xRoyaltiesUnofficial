@@ -1,0 +1,45 @@
+{
+  "name": "0xroyaltiesunofficial",
+  "version": "1.0.0",
+  "description": "pre-release oxroyalties repo for WIP work",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "chain": "ganache-cli --defaultBalanceEther 10000 --networkId 5777",
+    "deploy": "truffle migrate --reset",
+    "test": "truffle test test/0xRoyalties.test.js",
+    "test-agreements": "truffle test test/agreements.test.js",
+    "test-licensing": "truffle test test/licensing.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markymark617/0xRoyaltiesUnofficial.git"
+  },
+  "author": "MarkF",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markymark617/0xRoyaltiesUnofficial/issues"
+  },
+  "homepage": "https://github.com/markymark617/0xRoyaltiesUnofficial#readme",
+  "dependencies": {
+    "@biconomy/mexa": "^1.5.6",
+    "@openzeppelin/contracts": "^*",
+    "@truffle/hdwallet-provider": "^1.0.42",
+    "bignumber.js": "8.0.2",
+    "chai": "^4.3.6",
+    "chai-bignumber": "^3.0.0",
+    "eslint": "^5.13.0",
+    "eth-gas-reporter": "^0.1.12",
+    "ethereum-bridge": "^0.6.2",
+    "ethlint": "1.2.3",
+    "ganache-cli": "^6.9.1",
+    "serialize-javascript": "^4.0.0",
+    "solc": "^0.8.13",
+    "truffle": "^5.1.67",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "truffle-privatekey-provider": "^1.3.0",
+    "web3": "^1.2.11"
+  }
+}
