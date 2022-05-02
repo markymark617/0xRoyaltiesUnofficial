@@ -8,16 +8,16 @@ These contracts are saving the small players in royalty payment-based industries
 ## ABOUT
 Allows products to focus on the products that they are tokenizing using this as a template, saving those teams gas to deploy this common functionality.
 
-We're open sourcing this to call on a broader brain trust to address design issues 
+We're open sourcing this to call on a broader brain trust to address design issues.
 
 ## TECHNICAL NOTES:
-All contracts that use AccessController are Pausable.
-Licensing will integrate requiring ERC721.approve()
-Upgradability pattern that may be added may affect the ABI
+- All contracts that use AccessController are Pausable.
+- Licensing will integrate requiring ERC721.approve().
+- Upgradability pattern that may be added may affect the ABI.
 
 
 ## CLASS DIAGRAMS
-The below diagrams illustrate a high-level view of 0xRoyalties core functionality. THey are followed by the recursion problem that we face and aspire to optimize or rework to prevent expensive transactions for the end user:
+The below diagrams illustrate a high-level view of 0xRoyalties core functionality. They are followed by the recursion problem that we face and aspire to optimize or rework to prevent expensive transactions for the end user:
 
 <img src="./docs/Class_Diagrams/0xR_CD1.JPG" align="center" />
 <img src="./docs/Class_Diagrams/0xR_CD2.JPG" align="center" />
