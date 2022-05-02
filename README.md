@@ -24,10 +24,16 @@ The below diagrams illustrate a high-level view of 0xRoyalties core functionalit
 <img src="./docs/Class_Diagrams/0xR_CD3a.JPG" align="center" />
 <img src="./docs/Class_Diagrams/0xR_CD3b.JPG" align="center" />
 
-### Here is why you need an agreements object that has a many-to-1 relationship with License
+### Here is why you need an agreements object that has a many-to-1 relationship with License:
 
 <img src="./docs/Class_Diagrams/0xR_CD4.JPG" align="center" />
 
 <img src="./docs/Recursion_issue_Java_example/rescursion_issue_problem_statement.JPG" align="center" />
+
+#### Approximation of current approach:
+
 <img src="./docs/Recursion_issue_Java_example/rescursion_issue_a.JPG" align="center" />
+
+#### Slight optimization, but unsatisfactory as a solution:
+
 <img src="./docs/Recursion_issue_Java_example/rescursion_issue_attemptedsolution_1.JPG" align="center" />
