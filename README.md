@@ -28,6 +28,6 @@ The below diagrams illustrate a high-level view of 0xRoyalties core functionalit
 
 <img src="./docs/Class_Diagrams/0xR_CD4.JPG" align="center" />
 
+<img src="./docs/Recursion_issue_Java_example/rescursion_issue_problem_statement.JPG" align="center" />
 <img src="./docs/Recursion_issue_Java_example/rescursion_issue_a.JPG" align="center" />
 <img src="./docs/Recursion_issue_Java_example/rescursion_issue_attemptedsolution_1.JPG" align="center" />
-<img src="./docs/Recursion_issue_Java_example/rescursion_issue_problem_statement.JPG" align="center" />
